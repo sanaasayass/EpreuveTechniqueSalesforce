@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Account.Name</members>
+        <members>Account.MissionStatus__c</members>
+        <members>Account.MissionCanceledDate__c</members>
+        <members>AccountContactRelation__c.Account__c</members>
+        <members>AccountContactRelation__c.Contact__c</members>
+        <members>Contact.IsActive__c</members>
+        <members>Contact.Name</members>
+        <name>CustomField</name>
+    </types>
+    
+    <version>58.0</version>
+</Package>
