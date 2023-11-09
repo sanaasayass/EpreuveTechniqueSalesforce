@@ -15,3 +15,4 @@ trigger AnnulerMissionTrigger on Account (after update) {
         AnnulerMissionHandler.handleCancelledMissions(Trigger.new, Trigger.oldMap);
     }
 } 
+//he we go
