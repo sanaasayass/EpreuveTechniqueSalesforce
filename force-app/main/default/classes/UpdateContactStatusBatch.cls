@@ -65,7 +65,7 @@ global class UpdateContactStatusBatch implements Database.Batchable<sObject>, Da
                 if (allAccountsCanceled && con.IsActive__c) {
                     contactIdsToUpdate.add(con.Id);
                 }
-            }
+            } 
 
             // Mettre à jour les contacts
             if (!contactIdsToUpdate.isEmpty()) {
