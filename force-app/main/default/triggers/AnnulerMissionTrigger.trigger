@@ -14,7 +14,4 @@ trigger AnnulerMissionTrigger on Account (after update) {
         // Appel de la méthode handleCancelledMissions du gestionnaire pour traiter les missions annulées
         AnnulerMissionHandler.handleCancelledMissions(Trigger.new, Trigger.oldMap);
     }
-}
-
-
-//TEST 2
+} 
